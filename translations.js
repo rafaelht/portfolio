@@ -294,8 +294,8 @@ const translations = {
 
     // Certificates Section
     "certificates_title": {
-        "es": "Certificados y Diplomas",
-        "en": "Certificates and Diplomas"
+        "es": "Certificados",
+        "en": "Certificates"
     },
     "python_cert": {
         "es": "Certificación en programación Python para desarrollo de aplicaciones y automatización.",
