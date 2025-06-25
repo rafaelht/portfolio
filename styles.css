@@ -182,12 +182,12 @@ body {
 
 .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg) !important;
-    background: linear-gradient(90deg, #fbbf24, #f59e0b) !important;
+    background: linear-gradient(90deg, #60a5fa, #3b82f6) !important;
 }
 
 .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg) !important;
-    background: linear-gradient(90deg, #fbbf24, #f59e0b) !important;
+    background: linear-gradient(90deg, #60a5fa, #3b82f6) !important;
 }
 
 /* Hero Section */
@@ -1388,8 +1388,10 @@ section {
         backdrop-filter: blur(20px) !important;
         -webkit-backdrop-filter: blur(20px) !important;
         border-bottom: 1px solid rgba(96, 165, 250, 0.1) !important;
-        padding: 2rem 0 !important;
+        padding: 1rem 0 !important;
         gap: 0 !important;
+        max-height: calc(100vh - 70px) !important;
+        overflow-y: auto !important;
     }
 
     .nav-menu.active {
@@ -1397,13 +1399,13 @@ section {
     }
 
     .nav-item {
-        margin: 0.5rem 0 !important;
+        margin: 0.25rem 0 !important;
         width: 100% !important;
     }
 
     .nav-link {
-        font-size: 1.1rem !important;
-        padding: 1rem 2rem !important;
+        font-size: 1rem !important;
+        padding: 0.75rem 2rem !important;
         display: block !important;
         width: 100% !important;
         border-bottom: 1px solid rgba(96, 165, 250, 0.1) !important;

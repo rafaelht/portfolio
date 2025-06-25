@@ -65,7 +65,7 @@ const translations = {
     },
     "download_cv_text": {
         "es": "Descargar CV",
-        "en": "Download CV"
+        "en": "Download Resume"
     },
     "contact_me": {
         "es": "Contactar",

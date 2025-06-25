@@ -358,7 +358,7 @@ function updateLanguage(lang) {
     const heroTitle = document.querySelector('.hero-title');
     if (heroTitle && translations.hero_greeting && translations.hero_greeting[lang]) {
         const greeting = translations.hero_greeting[lang];
-        heroTitle.innerHTML = `${greeting} <span class="highlight">Rafael Hilario Torres</span>`;
+        heroTitle.innerHTML = `${greeting} <span class="highlight">Rafael Hilario</span>`;
     }
 
     const heroSubtitle = document.querySelector('.hero-subtitle');
