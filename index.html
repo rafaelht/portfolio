@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael Hilario - Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="code-solid.svg">
+    <link rel="stylesheet" href="styles.css?v=1.22">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">
+                    <h2>RH</h2>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link" data-es="Inicio" data-en="Home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-es="Sobre mí" data-en="About">Sobre mí</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link" data-es="Experiencia" data-en="Experience">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link" data-es="Educación" data-en="Education">Educación</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certificates" class="nav-link" data-es="Certificados" data-en="Certificates">Certificados</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link" data-es="Proyectos" data-en="Projects">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link" data-es="Habilidades" data-en="Skills">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#languages" class="nav-link" data-es="Idiomas" data-en="Languages">Idiomas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-es="Contacto" data-en="Contact">Contacto</a>
+                </li>
+            </ul>
+            <div class="language-switcher">
+                <button class="lang-btn active" data-lang="es">ES</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hola, soy <span class="highlight">Rafael Hilario Torres</span></h1>
+                <p class="hero-subtitle" data-key="hero_subtitle">Desarrollador Web</p>
+                <p class="hero-description" data-key="hero_description">
+                    Apasionado por el desarrollo web y análisis de sistemas, especializado en tecnologías frontend y backend, 
+                    desarrollo de software y gestión de proyectos tecnológicos. Experiencia en múltiples roles IT.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary" data-key="view_projects">Ver Proyectos</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card animated-card">
+                    <div class="code-preview">
+                        <div class="code-header">
+                            <div class="code-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="file-name">developer.js</div>
+                        </div>
+                        <div class="code-snippet">
+                            <div class="code-line typing-line" data-text="const developer = {">
+                                <span class="line-num">1</span>
+                                <span class="code-text"><span class="keyword">const</span> <span class="variable">developer</span> = {</span>
+                                <span class="typing-cursor"></span>
+                            </div>
+                            <div class="code-line typing-line" data-text="  name: 'Rafael',">
+                                <span class="line-num">2</span>
+                                <span class="code-text">  <span class="property">name</span>: <span class="string">'Rafael'</span>,</span>
+                                <span class="typing-cursor"></span>
+                            </div>
+                            <div class="code-line typing-line" data-text="  role: 'Web Dev',">
+                                <span class="line-num">3</span>
+                                <span class="code-text">  <span class="property">role</span>: <span class="string">'Web Dev'</span>,</span>
+                                <span class="typing-cursor"></span>
+                            </div>
+                            <div class="code-line typing-line" data-text="  passion: 'Coding'">
+                                <span class="line-num">4</span>
+                                <span class="code-text">  <span class="property">passion</span>: <span class="string">'Coding'</span></span>
+                                <span class="typing-cursor"></span>
+                            </div>
+                            <div class="code-line typing-line" data-text="};">
+                                <span class="line-num">5</span>
+                                <span class="code-text">};</span>
+                                <span class="typing-cursor"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-icons">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js"></i>
+                    <i class="fab fa-angular"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-key="about_title">Sobre Mí</h2>
+            <div class="about-card-container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <p data-key="about_text_1">
+                            Soy un profesional de TI con amplia experiencia en análisis de sistemas, desarrollo de software y gestión de proyectos tecnológicos. 
+                            Mi trayectoria incluye roles en análisis de datos, programación, QA y soporte técnico, lo que me da una visión integral de los sistemas empresariales.
+                        </p>
+                        <p data-key="about_text_2">
+                            Con experiencia en metodologías Ágiles y un enfoque en la optimización de procesos, 
+                            me especializo en diseñar soluciones que mejoren la eficiencia operativa y la experiencia del usuario, 
+                            siempre alineadas con los objetivos estratégicos del negocio.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <h3>8+</h3>
+                                <p data-key="years_experience">Años de Experiencia</p>
+                            </div>
+                            <div class="stat">
+                                <h3>15+</h3>
+                                <p data-key="projects_completed">Proyectos Completados</p>
+                            </div>
+                            <div class="stat">
+                                <h3>12+</h3>
+                                <p data-key="technologies_mastered">Tecnologías Dominadas</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="about-card">
+                            <i class="fas fa-code"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title" data-key="experience_title">Experiencia Profesional</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3 data-key="web_developer">Desarrollador Web</h3>
+                        <h4>CEDIMAT</h4>
+                        <p class="timeline-date">Jun 2025 - <span data-key="present">Presente</span></p>
+                        <ul>
+                            <li data-key="web_developer_desc_1">Desarrollo y mantenimiento de aplicaciones web utilizando HTML, CSS3, JavaScript y Angular</li>
+                            <li data-key="web_developer_desc_2">Trabajo con bases de datos Oracle utilizando PL/SQL para consultas y procedimientos almacenados</li>
+                            <li data-key="web_developer_desc_3">Desarrollo backend con C# para APIs y servicios web</li>
+                            <li data-key="web_developer_desc_4">Gestión y desarrollo de sitios web con WordPress, incluyendo temas personalizados y plugins</li>
+                            <li data-key="web_developer_desc_5">Colaboración con equipos multidisciplinarios en metodologías Ágiles para entregas continuas</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3 data-key="systems_analyst">Analista de Sistemas</h3>
+                        <h4>CEDIMAT</h4>
+                        <p class="timeline-date">Sep 2023 - Jun 2025</p>
+                        <ul>
+                            <li data-key="cedimat_desc_1">Recopilé y documenté los requisitos técnicos y funcionales, diseñando soluciones de sistemas alineadas con los procesos organizacionales</li>
+                            <li data-key="cedimat_desc_2">Desarrollo de reportes en función de la demanda</li>
+                            <li data-key="cedimat_desc_3">Coordinar las fases de desarrollo, prueba e implementación</li>
+                            <li data-key="cedimat_desc_4">Asegurar que los sistemas (Soul MV/PEP) cumplan con los estándares de rendimiento, confiabilidad y usabilidad</li>
+                            <li data-key="cedimat_desc_5">Resolución de tickets</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3 data-key="data_analyst">Analista de Datos</h3>
+                        <h4>Oscar A. Renta Negrón</h4>
+                        <p class="timeline-date">Sep 2019 - Sep 2023</p>
+                        <ul>
+                            <li data-key="data_analyst_desc_1">Analicé datos de ventas y tendencias del mercado para identificar oportunidades de crecimiento y optimización de recursos</li>
+                            <li data-key="data_analyst_desc_2">Preparé informes y paneles de control para apoyar la toma de decisiones estratégicas</li>
+                            <li data-key="data_analyst_desc_3">Creé paneles de control e informes visuales para la alta dirección</li>
+                            <li data-key="data_analyst_desc_4">Identifiqué áreas para la reducción de costos y optimización de ingresos</li>
+                            <li data-key="data_analyst_desc_5">Colaboré con los equipos de ventas y marketing para alinear los análisis de datos con los objetivos</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3 data-key="programmer_analyst">Analista Programador</h3>
+                        <h4>Oscar A. Renta Negrón</h4>
+                        <p class="timeline-date">2021 - 2022</p>
+                        <ul>
+                            <li data-key="programmer_desc_1">Desarrollé y mantuve aplicaciones a nivel empresarial usando Java y SQL</li>
+                            <li data-key="programmer_desc_2">Analicé los requerimientos de los usuarios para ofrecer soluciones técnicas alineadas con las necesidades del negocio</li>
+                            <li data-key="programmer_desc_3">Optimicé el rendimiento del sistema e implementé nuevas funcionalidades basadas en retroalimentación</li>
+                            <li data-key="programmer_desc_4">Colaboré con equipos multidisciplinarios a lo largo del ciclo de vida del desarrollo de software</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3 data-key="qa_engineer">QA Engineer</h3>
+                        <h4>REDDE</h4>
+                        <p class="timeline-date">Ene 2021 - Dic 2021</p>
+                        <ul>
+                            <li data-key="qa_desc_1">Diseñé y ejecuté casos de prueba manuales y automatizados para aplicaciones web y móviles</li>
+                            <li data-key="qa_desc_2">Realicé pruebas funcionales, de regresión e integración utilizando Selenium y JIRA</li>
+                            <li data-key="qa_desc_3">Trabajé en entornos Ágiles, colaborando con desarrolladores para asegurar lanzamientos de alta calidad</li>
+                            <li data-key="qa_desc_4">Reporté y di seguimiento a errores, contribuyendo a la mejora continua del producto</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3 data-key="technical_support">Soporte Técnico</h3>
+                        <h4>Oscar A. Renta Negrón</h4>
+                        <p class="timeline-date">2019 - 2021</p>
+                        <ul>
+                            <li data-key="support_desc_1">Proporcioné soporte de Nivel 1 y Nivel 2 para incidencias relacionadas con hardware, software y redes</li>
+                            <li data-key="support_desc_2">Resolví incidentes de manera eficiente, asegurando una mínima interrupción de las operaciones del negocio</li>
+                            <li data-key="support_desc_3">Creé documentación y artículos de base de conocimiento para problemas recurrentes</li>
+                            <li data-key="support_desc_4">Escalé problemas complejos a equipos especializados y realicé seguimiento hasta su resolución</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3 data-key="software_developer_jr">Software Developer Jr.</h3>
+                        <h4>DTE</h4>
+                        <p class="timeline-date">Ene 2018 - Jul 2018</p>
+                        <ul>
+                            <li data-key="developer_jr_desc_1">Desarrollé y mantuve funcionalidades para aplicaciones web utilizando JavaScript, HTML, CSS y Python/Java</li>
+                            <li data-key="developer_jr_desc_2">Colaboré con desarrolladores senior para solucionar problemas, depurar y optimizar el código</li>
+                            <li data-key="developer_jr_desc_3">Participé en reuniones diarias (daily stand-ups), planificación de sprints y revisiones de código en entornos Ágiles</li>
+                            <li data-key="developer_jr_desc_4">Escribí pruebas unitarias e integradas para asegurar la confiabilidad de las aplicaciones</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3 data-key="graphic_designer">Graphic Designer (UX/UI)</h3>
+                        <h4>Studio 51</h4>
+                        <p class="timeline-date">Ene 2017 - Sep 2017</p>
+                        <ul>
+                            <li data-key="designer_desc_1">Diseñé interfaces intuitivas y prototipos de alta fidelidad para aplicaciones web y móviles</li>
+                            <li data-key="designer_desc_2">Elaboré wireframes y maquetas con Figma y Adobe XD, asegurando la coherencia con la identidad de la marca</li>
+                            <li data-key="designer_desc_3">Colaboré con equipos multidisciplinarios para alinear el diseño con las necesidades del usuario</li>
+                            <li data-key="designer_desc_4">Realicé pruebas con usuarios y apliqué los comentarios recibidos para mejorar la usabilidad</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title" data-key="education_title">Educación</h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3 data-key="systems_engineering">Ingeniería de Sistemas</h3>
+                        <h4>Domínico Americano</h4>
+                        <p class="education-date">Ene, 2022</p>
+                        <p data-key="education_description_1">Formación en ingeniería de sistemas con enfoque en desarrollo de software y gestión de proyectos tecnológicos.</p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-details">
+                        <h3 data-key="software_development_tech">Tecnólogo en Desarrollo De Software</h3>
+                        <h4>Instituto Tecnológico de Las Américas (ITLA)</h4>
+                        <p class="education-date">Ene, 2014 - Sep, 2017</p>
+                        <p data-key="education_description_2">Formación técnica especializada en desarrollo de software, programación y tecnologías de la información.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2 class="section-title" data-key="certificates_title">Certificados y Diplomas</h2>
+            <div class="certificates-grid">
+                <div class="certificate-item">
+                    <div class="certificate-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Python</h3>
+                        <p data-key="python_cert">Certificación en programación Python para desarrollo de aplicaciones y automatización.</p>
+                    </div>
+                </div>
+                <div class="certificate-item">
+                    <div class="certificate-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>English</h3>
+                        <p data-key="english_cert">Certificación en idioma inglés para comunicación profesional y técnica.</p>
+                    </div>
+                </div>
+                <div class="certificate-item">
+                    <div class="certificate-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Power BI</h3>
+                        <p data-key="powerbi_cert">Certificación en Power BI para análisis de datos y creación de dashboards empresariales.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Languages Section -->
+    <section id="languages" class="languages">
+        <div class="container">
+            <h2 class="section-title" data-key="languages_title">Idiomas</h2>
+            <div class="languages-content">
+                <div class="language-item">
+                    <div class="language-info">
+                        <h3 data-key="spanish">Español</h3>
+                        <p data-key="native">Nativo</p>
+                    </div>
+                    <div class="language-level">
+                        <div class="level-bar">
+                            <div class="level-fill" style="width: 100%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="language-item">
+                    <div class="language-info">
+                        <h3 data-key="english">Inglés</h3>
+                        <p data-key="intermediate">Intermedio</p>
+                    </div>
+                    <div class="language-level">
+                        <div class="level-bar">
+                            <div class="level-fill" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-key="projects_title">Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce Platform</h3>
+                        <p data-key="ecommerce_desc">Plataforma de comercio electrónico completa con React, Node.js y PostgreSQL</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small" data-key="view_demo">Ver Demo</a>
+                            <a href="#" class="btn btn-small btn-outline" data-key="view_code">Código</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p data-key="task_app_desc">Aplicación de gestión de tareas con funcionalidades avanzadas de colaboración</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Express</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small" data-key="view_demo">Ver Demo</a>
+                            <a href="#" class="btn btn-small btn-outline" data-key="view_code">Código</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Analytics Dashboard</h3>
+                        <p data-key="analytics_desc">Dashboard de análisis de datos con visualizaciones interactivas</p>
+                        <div class="project-tech">
+                            <span>Angular</span>
+                            <span>Python</span>
+                            <span>D3.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small" data-key="view_demo">Ver Demo</a>
+                            <a href="#" class="btn btn-small btn-outline" data-key="view_code">Código</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-key="skills_title">Habilidades Técnicas</h2>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3 data-key="frontend">Frontend</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-angular"></i>
+                            <span>Angular</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="ionic-icon" style="display:block;width:32px;height:32px;margin:0 auto 0.5rem;">
+                                <svg viewBox="0 0 32 32" width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16 2C8.268 2 2 8.268 2 16s6.268 14 14 14 14-6.268 14-14S23.732 2 16 2z" fill="#e5e7eb"/>
+                                    <path d="M16 6c-5.514 0-10 4.486-10 10s4.486 10 10 10 10-4.486 10-10-4.486-10-10-10z" fill="#e5e7eb"/>
+                                    <path d="M16 10c-3.314 0-6 2.686-6 6s2.686 6 6 6 6-2.686 6-6-2.686-6-6-6z" fill="#e5e7eb"/>
+                                    <circle cx="16" cy="16" r="2" fill="#e5e7eb"/>
+                                </svg>
+                            </div>
+                            <span>Ionic</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 data-key="backend">Backend</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-php"></i>
+                            <span>PHP</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>SQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 data-key="tools">Herramientas</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="postman-icon" style="display:block;width:32px;height:32px;margin:0 auto 0.5rem;">
+                                <svg viewBox="0 0 32 32" width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="16" cy="16" r="16" fill="transparent" stroke="#e5e7eb" stroke-width="1"/>
+                                    <path d="M22.5 9.5L13.5 18.5" stroke="#e5e7eb" stroke-width="2" stroke-linecap="round"/>
+                                    <circle cx="13.5" cy="18.5" r="2.5" fill="#e5e7eb"/>
+                                </svg>
+                            </div>
+                            <span>Postman</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>Visual Studio Code</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-card">
+                <h3 class="contact-title" data-key="contact_subtitle">¡Contáctame!</h3>
+                <p class="contact-desc" data-key="contact_description">Estoy siempre interesado en nuevas oportunidades y proyectos emocionantes. No dudes en contactarme si tienes alguna pregunta o propuesta.</p>
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-text">rafaelhilariotorres@gmail.com</div>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div class="contact-text">+1 809-669-0793</div>
+                    </div>
+                    <div class="contact-method">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contact-text">Dominican Republic Time ZoneGMT-4</div>
+                    </div>
+                </div>
+                <div class="contact-download">
+                    <a href="rafael_hilario_resume-spanish_CV.pdf" target="_blank" class="btn btn-primary contact-download-btn" data-key="download_cv">
+                        <i class="fas fa-download"></i>
+                        <span data-key="download_cv_text">Descargar CV</span>
+                    </a>
+                </div>
+                <div class="contact-social">
+                    <a href="https://www.linkedin.com/in/rafael-hilario-torres-65014b122/" target="_blank" class="contact-social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/rafaelht" target="_blank" class="contact-social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://x.com/rafaelhilariot" target="_blank" class="contact-social-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year">2024</span> Rafael Hilario Torres. <span data-key="footer_text">Todos los derechos reservados.</span></p>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
