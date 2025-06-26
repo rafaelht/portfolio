@@ -316,8 +316,8 @@ const translations = {
         "en": "Projects"
     },
     "ecommerce_desc": {
-        "es": "Plataforma de comercio electrónico completa con React, Node.js y PostgreSQL",
-        "en": "Complete e-commerce platform with React, Node.js and PostgreSQL"
+        "es": "Plataforma para agendas (Corito) con amigos/familiares. Hecha con ionic/Angular y Supabase/PostgreSQL",
+        "en": "A platform for scheduling (Corito) with friends and family. Built with Ionic/Angular and Supabase/PostgreSQL."
     },
     "task_app_desc": {
         "es": "Aplicación de gestión de tareas con funcionalidades avanzadas de colaboración",
