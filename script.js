@@ -382,6 +382,16 @@ function updateLanguage(lang) {
         contactBtn.textContent = translations.contact_me[lang];
     }
 
+    // Update download CV button href based on language
+    const downloadBtn = document.querySelector('.contact-download-btn');
+    if (downloadBtn) {
+        if (lang === 'es') {
+            downloadBtn.href = 'rafael_hilario_resume-spanish_CV.pdf';
+        } else if (lang === 'en') {
+            downloadBtn.href = 'rafael_hilario_resume.pdf';
+        }
+    }
+
     // Save language preference
     localStorage.setItem('preferred-language', lang);
 }

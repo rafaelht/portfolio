@@ -23,7 +23,7 @@ const translations = {
     },
     "projects": {
         "es": "Proyectos",
-        "en": "Projects"
+        "en": "View Projects"
     },
     "skills": {
         "es": "Habilidades",
@@ -56,8 +56,8 @@ const translations = {
         "en": "Passionate about web development and systems analysis, specialized in frontend and backend technologies, software development and technology project management. Experience in multiple IT roles."
     },
     "view_projects": {
-        "es": "Ver Proyectos",
-        "en": "View Projects"
+        "es": "Proyectos",
+        "en": "Projects"
     },
     "download_cv": {
         "es": "Descargar CV",
@@ -312,8 +312,8 @@ const translations = {
 
     // Projects Section
     "projects_title": {
-        "es": "Proyectos Destacados",
-        "en": "Featured Projects"
+        "es": "Proyectos",
+        "en": "Projects"
     },
     "ecommerce_desc": {
         "es": "Plataforma de comercio electrónico completa con React, Node.js y PostgreSQL",
@@ -382,8 +382,8 @@ const translations = {
         "en": "Contact Me!"
     },
     "contact_description": {
-        "es": "Estoy siempre interesado en nuevas oportunidades y proyectos emocionantes. No dudes en contactarme si tienes alguna pregunta o propuesta.",
-        "en": "I'm always interested in new opportunities and exciting projects. Don't hesitate to contact me if you have any questions or proposals."
+        "es": "Estoy siempre interesado en nuevas oportunidades y proyectos emocionantes. No dudes en contactarme si tienes alguna pregunta.",
+        "en": "I'm always interested in new opportunities and exciting projects. Don't hesitate to contact me if you have any questions."
     },
     "name_placeholder": {
         "es": "Nombre",
