@@ -315,6 +315,10 @@ const translations = {
         "es": "Proyectos",
         "en": "Projects"
     },
+    "event_schedule_title": {
+        "es": "Agenda de Eventos",
+        "en": "Event Schedule"
+    },
     "ecommerce_desc": {
         "es": "Plataforma para agendas (Corito) con amigos/familiares. Hecha con ionic/Angular y Supabase/PostgreSQL",
         "en": "A platform for scheduling (Corito) with friends and family. Built with Ionic/Angular and Supabase/PostgreSQL."
